@@ -1,10 +1,10 @@
 import React from 'react';
-import Counter from './Counter';
+import Counter from '../src/component/Counter';
 
 const App = () => {
   return (
    <>
-   <Counter/>
+   <Counter title="Counter App"/>
    </>
   )
 }
